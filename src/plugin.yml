@@ -1,0 +1,15 @@
+name: SoulEnterprise
+version: 0.1
+main: de.dal3x.enterprise.main.EnterprisePlugin
+author: DAL3X
+api-version: 1.15
+softdepend: [Vault, SoulCore]
+commands:
+   firma:
+      usage: /<command>
+      description: Befehl zum interagieren mit Firmen
+      aliases: [company, enterprise]
+   markt:
+      usage: /<command>
+      description: Nutzt den Marktplatz
+      aliases: [marktplatz]
